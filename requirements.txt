@@ -1,0 +1,6 @@
+streamlit
+python-dotenv
+google-genai
+PyMuPDF
+requests
+beautifulsoup4
