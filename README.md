@@ -56,8 +56,12 @@ Installation: Foot mounted
 
 [Official Mitsubishi Electric Specification PDF](https://www.mitsubishielectric.com/fa/id_en/products/drv/induction/download/2-Three-Phase-Motor-IE3/2-Foot-Mounted-Outdoor-IP55/2-400V-class/spec-sf-pro-2-2k-w-4p-ip55-400v.pdf)
 
+If the PDF does not open when clicked, copy the link and open it directly in a new browser tab.
+
 **Product Website:**
 
 [Official Mitsubishi Electric Product Page](https://www.mitsubishielectric.com/fa/id_en/products/drv/induction/items/tpmie3/foot-mounted-outdoor.html)
+
+If the website does not open when clicked, copy the link and open it directly in a new browser tab.
 
 Click **Analyze Product** to extract specifications, identify information gaps, detect conflicting information, generate supplier questions, calculate the intelligence score, and provide evidence traceability.
