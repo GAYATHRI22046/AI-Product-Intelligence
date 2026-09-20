@@ -1,58 +1,63 @@
 # ⚙️ AI Product Intelligence
 
-An AI-powered product intelligence system that analyzes industrial product information from **PDFs, websites, and manual inputs** to extract technical specifications, identify information gaps, detect conflicting data, and generate supplier questions.
+An AI-powered system that analyzes industrial product information from **PDFs, websites, and manual inputs** to extract specifications, identify information gaps, detect conflicting data, and generate supplier questions.
 
-## 🚀 Problem
-
-Industrial product information is often scattered across datasheets, product websites, manuals, and other documents.
-
-Manually comparing these sources can make it difficult to quickly identify:
-
-- Missing technical specifications
-- Conflicting values between sources
-- Incomplete product information
-- Important questions that need clarification
-
-## 💡 Solution
-
-**AI Product Intelligence** brings multiple product information sources together and uses AI to create a structured intelligence report.
-
-### Core workflow
+## 💡 How It Works
 
 **Extract → Understand → Verify**
 
-1. **Extract** technical information from PDFs, websites, and manual input.
-2. **Understand** the product and organize its specifications.
-3. **Verify** information across sources and identify conflicts and gaps.
+- 📄 Extract information from PDFs, websites, and manual inputs
+- 🤖 Organize and understand product specifications using AI
+- ⚠️ Detect missing information and conflicting values
+- ❓ Generate supplier questions
+- 📊 Calculate an intelligence score
+- 🔗 Provide evidence traceability
 
-## ✨ Key Features
+## 🛠️ Tech Stack
 
-- 📄 PDF specification extraction
-- 🌐 Product website analysis
-- 📝 Manual information input
-- 🤖 AI-powered specification extraction
-- 🔎 Information gap detection
-- ⚠️ Cross-source conflict detection
-- 📊 Intelligence scoring
-- ❓ Supplier question generation
-- 🔗 Evidence traceability
-- 📋 Structured specification intelligence
+Python • Streamlit • Google Gemini API • PyMuPDF • BeautifulSoup • Requests
 
-## 🛠️ Technology Stack
+## 🧪 How to Test
 
-- **Python**
-- **Streamlit**
-- **Google Gemini API**
-- **PyMuPDF**
-- **BeautifulSoup**
-- **Requests**
+AI Product Intelligence accepts three real-world product information sources:
 
-## 📁 Project Structure
+1. Manual Information
+2. Product PDF
+3. Product Website URL
 
-```text
-AI-Product-Intelligence/
-│
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+### Example Product
+
+**Mitsubishi Electric SF-PRO 2.2 kW 4P IP55 Three-Phase Motor**
+
+**Manual Information:**
+Paste the following:
+
+Product: Mitsubishi Electric SF-PRO 2.2 kW 4P IP55
+
+Phase: 3
+Model: SF-PRO
+Rated output: 2.2 kW
+Poles: 4
+Rated voltage: 380 / 400 / 415 V
+Rated frequency: 50 Hz
+Rated current: 5.3 A
+Rated speed: 1500 RPM
+Efficiency class: IE3
+Thermal class: 120(E)
+Rating: S1 continuous
+Enclosure: Totally enclosed fan cooled
+Protection: IP55
+Cooling method: IC411
+Frame: 100L
+Weight: 29 kg
+Installation: Foot mounted
+
+**Product PDF:**
+
+[Official Mitsubishi Electric Specification PDF](https://www.mitsubishielectric.com/fa/id_en/products/drv/induction/download/2-Three-Phase-Motor-IE3/2-Foot-Mounted-Outdoor-IP55/2-400V-class/spec-sf-pro-2-2k-w-4p-ip55-400v.pdf)
+
+**Product Website:**
+
+[Official Mitsubishi Electric Product Page](https://www.mitsubishielectric.com/fa/id_en/products/drv/induction/items/tpmie3/foot-mounted-outdoor.html)
+
+Click **Analyze Product** to extract specifications, identify information gaps, detect conflicting information, generate supplier questions, calculate the intelligence score, and provide evidence traceability.
