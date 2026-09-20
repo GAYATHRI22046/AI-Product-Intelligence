@@ -69,7 +69,15 @@ st.markdown(textwrap.dedent(
     section[data-testid="stSidebar"] input {
         background: #102641 !important;
         color: white !important;
+        -webkit-text-fill-color: white !important;
         border: 1px solid #29496d !important;
+    }
+
+    section[data-testid="stSidebar"] .stTextArea textarea::placeholder,
+    section[data-testid="stSidebar"] input::placeholder {
+        color: #93a5c2 !important;
+        opacity: 1 !important;
+        -webkit-text-fill-color: #93a5c2 !important;
     }
 
     section[data-testid="stSidebar"] button {
@@ -81,6 +89,25 @@ st.markdown(textwrap.dedent(
 
     section[data-testid="stSidebar"] .stCheckbox label {
         color: #f8fafc !important;
+    }
+
+    section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+        background: #102641 !important;
+        border: 1px dashed #29496d !important;
+    }
+
+    section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] * {
+        color: #f8fafc !important;
+    }
+
+    section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button {
+        background: #ef4444 !important;
+        color: white !important;
+        border: none !important;
+    }
+
+    section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzoneInstructions"] svg {
+        fill: #93a5c2 !important;
     }
 
     /* HERO */
